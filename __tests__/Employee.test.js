@@ -11,20 +11,23 @@ test('creates an employee object', () => {
 
 test('checks if name is a string', () => {
     const employee = new Employee();
+    let name = 'Alex'
 
-    expect(employee.getName()).toEqual(expect.any(String));
+    expect(employee.getName(name)).toBe('Alex');
 });
 
 test('checks if id is a number', () => {
     const employee = new Employee();
+    let id = 1;
 
-    expect(employee.getId()).toEqual(expect.any(Number));
+    expect(employee.getId(id)).toBe(1);
 });
 
 test('checks if email is a string', () => {
     const employee = new Employee();
+    let email = 'Alex@gmail.com'
 
-    expect(employee.getEmail()).toEqual(expect.any(String));
+    expect(employee.getEmail(email)).toBe('Alex@gmail.com');
 });
 
 test('checks to make sure role is Employee', () => {
