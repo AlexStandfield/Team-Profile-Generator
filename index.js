@@ -1,3 +1,3 @@
 const Team = require('./lib/Team');
 
-new Team().newTeam()
+new Team().runNewTeam()
