@@ -124,7 +124,7 @@ const generatePage = templateData => {
     </head>
 
     <body>
-        <header>
+        <header class="header">
             <h1>My Team</h1>
         </header>
 
